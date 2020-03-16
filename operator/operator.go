@@ -99,5 +99,5 @@ func Insert(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusOK, operator)
+	c.JSON(http.StatusCreated, operator)
 }
